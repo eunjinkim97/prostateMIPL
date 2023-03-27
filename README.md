@@ -4,7 +4,15 @@
     <p> Prediction of BCR for Prostate MRI by using deep learning based algorithm </p>
     
 ### This code is about a study for analyzing prostate cancers using by deep learning and machine learning. 
-The study was conducted by Eunjin Kim and Inye Na from the Medical Imaging Processing Lab led by Hyunjin Park in 2021 from SKKU.
+This code for the study was conducted by Eunjin Kim and Inye Na from the Medical Imaging Processing Lab(MIPL) led by Hyunjin Park in 2022 from SKKU.
+
+The authors of the study are Hye Won Lee 1,# , Eunjin Kim 2,# , Inye Na 2 , Chan Kyo Kim 3,* , Seong Il Seo 1,* , Hyunjin Park 2,4,*
+
+Affiliations:
+    1 Samsung Medical Center, Department of Urology, Sungkyunkwan University School of Medicine, Seoul, Korea
+    2 Department of Electrical and Computer Engineering, Sungkyunkwan University, Suwon, Korea
+    3 Department of Radiology and Center for Imaging Science, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Korea
+    4 Center for Neuroscience Imaging Research, Institute for Basic Science, Suwon, Korea
 
 </h1>
 
@@ -12,29 +20,27 @@ The study was conducted by Eunjin Kim and Inye Na from the Medical Imaging Proce
 ## Overview
 The code includes three main parts:
 
-1. Preprocessing of MR images: This includes preprocessing of multi-parametric images (T1, T2, and T1 contrast-enhanced) of prostate MRIs.
+1. Data_preprocessing.py
+    - Preprocessing of MR images: This includes preprocessing of multi-parametric images (T1, T2, and T1 contrast-enhanced) of prostate MRIs.
 
-2. Deep learning network for BCR prediction: This includes training a deep learning network to predict BCR by taking inputs as MR images mentioned above.
+2. Train_and_Extract_DL_features.py
+    - Deep learning network for BCR prediction: This includes training a deep learning network to predict BCR by taking inputs as MR images mentioned above.
 
-3. Survival model using machine learning techniques: This includes training a survival model using machine learning techniques.
+3. Survival_model.m
+    - Survival model using machine learning techniques: This includes training a survival model using machine learning techniques.
 
 ### Keywords
 MRI, Prostate, Cancer, Multi-parametric, BCR, Deep-learning, Radiomics
 
 ## Requirements
-Python 3.2, 
-TensorFlow 2.8, 
+Python-3.2, 
+TensorFlow-2.8, 
 NumPy, 
 Pandas, 
 Scikit-learn, 
-SimpleITK
+SimpleITK,
+PyDicom
 
-### Usage
-1. Clone this repository: git clone https://github.com/<username>/<repository>.git
-
-2. Install the required dependencies: pip install -r requirements.txt
-
-3. Run the code: python main.py
 
 ## Contributors
 Eunjin Kim, 
@@ -47,9 +53,9 @@ We would like to thank Hyunjin Park and the Medical Imaging Processing Lab for t
 
 /*******************************************************
 
- Copyright (C) 2021 Eunjin Kim <dmswlskim970606@gmail.com>
+ Copyright (C) 2022 Eunjin Kim <dmswlskim970606@gmail.com>
  
- This file is part of Prediction BCR for Prostate cancer.
+ This file is a part of Prediction BCR for Prostate cancer.
  
  This project and code can not be copied and/or distributed without the express permission of EJK, skkuej.
 
