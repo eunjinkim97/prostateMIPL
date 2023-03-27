@@ -3,16 +3,16 @@
 <h1 align="center">
     <p> Prediction of BCR for Prostate MRI by using deep learning based algorithm </p>
     
-### This code is about a study for analyzing prostate cancers using by deep learning and machine learning. 
-This code for the study was conducted by Eunjin Kim and Inye Na from the Medical Imaging Processing Lab(MIPL) led by Hyunjin Park in 2022 from SKKU.
-
-The authors of the study are Hye Won Lee 1,# , Eunjin Kim 2,# , Inye Na 2 , Chan Kyo Kim 3,* , Seong Il Seo 1,* , Hyunjin Park 2,4,*
-
-Affiliations:
-    1 Samsung Medical Center, Department of Urology, Sungkyunkwan University School of Medicine, Seoul, Korea
-    2 Department of Electrical and Computer Engineering, Sungkyunkwan University, Suwon, Korea
-    3 Department of Radiology and Center for Imaging Science, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Korea
-    4 Center for Neuroscience Imaging Research, Institute for Basic Science, Suwon, Korea
+### Code for Clinical Study
+    - This code is about a study for analyzing prostate cancers using by deep learning and machine learning. 
+    - The authors of the study are
+            Hye Won Lee 1,# , Eunjin Kim 2,# , Inye Na 2 , Chan Kyo Kim 3,* , Seong Il Seo 1,* , Hyunjin Park 2,4,*
+    - Affiliations:
+            1 Samsung Medical Center, Department of Urology, Sungkyunkwan University School of Medicine, Seoul, Korea
+            2 Department of Electrical and Computer Engineering, Sungkyunkwan University, Suwon, Korea
+            3 Department of Radiology and Center for Imaging Science, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Korea
+            4 Center for Neuroscience Imaging Research, Institute for Basic Science, Suwon, Korea
+    - This code for the study was written by Eunjin Kim and Inye Na from the Medical Imaging Processing Lab(MIPL) led by Hyunjin Park in 2022 from SKKU.
 
 </h1>
 
@@ -42,7 +42,7 @@ SimpleITK,
 PyDicom
 
 
-## Contributors
+## Code Contributors
 Eunjin Kim, 
 Inye Na
   
