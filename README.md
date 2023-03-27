@@ -27,10 +27,11 @@ The code includes three main parts:
     - Preprocessing of MR images: This includes preprocessing of multi-parametric images (T1, T2, and T1 contrast-enhanced) of prostate MRIs.
 
 2. Train_and_Extract_DL_features.py
-    - Deep learning network for BCR prediction: This includes training a deep learning network to predict BCR by taking inputs as MR images mentioned above.
+    - Deep learning network for BCR prediction: This includes training a deep learning network to predict BCR by taking 3 inputs as MR images mentioned above.
+    - Extraction for deep features associated BCR: 960-features are extracted at the end of deep learning networks.
 
 3. Survival_model.m
-    - Survival model using machine learning techniques: This includes training a survival model using machine learning techniques.
+    - Survival model techniques: This includes fitting a survival model called Cox modeling.
 
 
 ## Requirements
