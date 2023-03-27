@@ -4,7 +4,7 @@
     <p> Prediction of BCR for Prostate MRI by using deep learning based algorithm </p>
     
 ### This code is about a study for analyzing prostate cancers using by deep learning and machine learning. 
-The study was conducted by Eunjin Kim and Inye Na from the Medical Imaging Processing Lab led by Hyeonjin Park in 2021 from SKKU.
+The study was conducted by Eunjin Kim and Inye Na from the Medical Imaging Processing Lab led by Hyunjin Park in 2021 from SKKU.
 
 </h1>
 
@@ -41,7 +41,7 @@ Eunjin Kim,
 Inye Na
   
 ## Acknowledgments
-We would like to thank Hyeonjin Park and the Medical Imaging Processing Lab for their support and guidance in conducting this study.
+We would like to thank Hyunjin Park and the Medical Imaging Processing Lab for their support and guidance in conducting this study.
 
 ## Lincense
 
