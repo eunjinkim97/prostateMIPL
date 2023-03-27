@@ -24,7 +24,7 @@ MRI, Prostate, Cancer, Multi-parametric, BCR, Deep-learning, Radiomics
 The code includes three main parts:
 
 1. Data_preprocessing.py
-    - Preprocessing of MR images: This includes preprocessing of multi-parametric images (T1, T2, and T1 contrast-enhanced) of prostate MRIs.
+    - Preprocessing of MR images: This includes preprocessing of multi-parametric MR images (T1-weighted, T2-weighted, and Dynamic Contrast Enhanced) of prostate cancers.
 
 2. Train_and_Extract_DL_features.py
     - Deep learning network for BCR prediction: This includes training a deep learning network to predict BCR by taking 3 inputs as MR images mentioned above.
