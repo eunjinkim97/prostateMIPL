@@ -1,2 +1,2 @@
 # prostateMIPL
-This code is about a study for analysing prostate cancer using by deep learning and machine learning.
+This code is about a study for analyzing prostate cancers using by deep learning and machine learning.
