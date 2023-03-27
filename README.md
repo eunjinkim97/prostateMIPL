@@ -14,6 +14,9 @@
             4 Center for Neuroscience Imaging Research, Institute for Basic Science, Suwon, Korea
     - This code for the study was written by Eunjin Kim and Inye Na from the Medical Imaging Processing Lab(MIPL) led by Hyunjin Park in 2022 from SKKU.
 
+### Keywords
+MRI, Prostate, Cancer, Multi-parametric, BCR, Deep-learning, Radiomics
+    
 </h1>
 
 
@@ -29,8 +32,6 @@ The code includes three main parts:
 3. Survival_model.m
     - Survival model using machine learning techniques: This includes training a survival model using machine learning techniques.
 
-### Keywords
-MRI, Prostate, Cancer, Multi-parametric, BCR, Deep-learning, Radiomics
 
 ## Requirements
 Python-3.2, 
